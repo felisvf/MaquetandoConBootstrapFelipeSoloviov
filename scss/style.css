@@ -1,0 +1,111 @@
+body {
+  background-color: #000000;
+  color: white;
+}
+
+.navbar {
+  flex-direction: row;
+  display: flex;
+  background-color: #CCFF00;
+  color: #6633CC;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  display: flex;
+}
+.navbar li {
+  padding: 9px;
+  display: flex;
+}
+.navbar ul li a {
+  display: flex;
+  text-decoration: none;
+  color: #6633CC;
+  border-left: solid 3px #6633CC;
+  border-right: solid 3px;
+}
+
+main {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6633CC;
+}
+main h1 {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  color: #6633CC;
+  font-weight: 100px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif, monospace;
+  letter-spacing: 7px;
+  overflow: hidden;
+  border-right: 2px solid #6633CC 0, 0%, 80%;
+  white-space: nowrap;
+  -webkit-animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms infinite;
+  animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms infinite;
+  align-items: center;
+  border: solid #6633CC 3px;
+  background-color: #CCFF00;
+}
+@-webkit-keyframes typewriter {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 1920px;
+  }
+}
+@keyframes typewriter {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 1920px;
+  }
+}
+
+h2 {
+  color: #FF0000;
+  background-color: #6633CC;
+}
+
+h3 {
+  color: #CCFF00;
+}
+
+.btn-primary {
+  color: #6633CC;
+  background-color: #CCFF00;
+  border-radius: 30px;
+  justify-items: flex-end;
+  width: 3rem;
+}
+
+.containercards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  border: 2px solid #f8bc04;
+  justify-content: center;
+}
+
+.containercards div {
+  background-color: rgb(0, 0, 0);
+  width: auto;
+  margin: 10px;
+  text-align: center;
+  border: 2px solid #f8bc04;
+  color: #FF0000;
+}
+
+footer {
+  margin: 3px;
+  padding: 4px;
+  border: solid 2px cornflowerblue;
+  color: aliceblue;
+  background-color: #000000;
+  justify-content: baseline;
+}/*# sourceMappingURL=style.css.map */

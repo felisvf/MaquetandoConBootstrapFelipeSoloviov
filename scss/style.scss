@@ -1,0 +1,144 @@
+$colorPrimario: #CCFF00; 
+$colorSecundario: #6633CC;
+$colorTerciario:  #FF0000;
+$colorBlack: #000000;
+
+
+body{background-color: $colorBlack;
+
+color: white}
+
+.navbar {
+    flex-direction: row;
+    display: flex;
+    background-color:$colorPrimario;
+    color: $colorSecundario;
+
+    ul{
+        list-style: none;
+        display: flex;
+        display: flex;
+    }
+
+
+    li{
+        padding: 9px;
+        display: flex;
+        } 
+
+        ul li a{
+            display: flex;
+            text-decoration: none;
+            color: $colorSecundario;
+            border-left: solid 3px $colorSecundario;
+            border-right: solid 3px ;
+            
+            }
+
+}
+
+main { 
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $colorSecundario;
+
+h1{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    color: $colorSecundario;
+    font-weight: 100px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif, monospace;
+    letter-spacing: 7px;
+    overflow: hidden;
+    border-right: 2px solid $colorSecundario 0, 0%, 80%;
+    white-space: nowrap;
+    -webkit-animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms infinite;
+            animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms infinite;
+    align-items: center;
+    border: solid $colorSecundario 3px;
+    background-color: $colorPrimario;
+  }
+  
+  @-webkit-keyframes typewriter {
+    from {
+      width: 0px;
+    }
+    to {
+      width: 1920px;
+    }
+  }
+  
+  @keyframes typewriter {
+    from {
+      width: 0px;
+    }
+    to {
+      width: 1920px;
+    }
+  }
+
+
+ 
+}
+
+
+h2{ 
+    color: $colorTerciario;
+    background-color: $colorSecundario
+}
+
+
+
+h3{
+
+    color: $colorPrimario;
+
+}
+
+.btn-primary{ 
+    color: $colorSecundario;
+    background-color: $colorPrimario;
+    border-radius: 30px;
+    justify-items: flex-end;
+width: 3rem;
+
+
+
+}
+
+    
+
+
+    
+
+
+    .containercards {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        border: 2px solid #f8bc04;
+        justify-content: center;
+      }
+      
+      .containercards div {
+        background-color: rgb(0, 0, 0);
+        width: auto;
+        margin: 10px;
+        text-align: center;
+        border: 2px solid #f8bc04;
+        color: #FF0000;
+      }
+
+
+      footer {
+        margin: 3px;
+        padding: 4px;
+        border: solid 2px cornflowerblue;
+        color: aliceblue;
+        background-color: $colorBlack;
+        justify-content: baseline;
+      }
+           
